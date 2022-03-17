@@ -42,7 +42,7 @@ app.use('/api', bookRoute)
 // PORT
 const port = process.env.PORT || 8000;
  
-app.listen(process.env.PORT || 3000, function(){
+app.listen(port, () => {
   console.log('Listening on port ' + port)
 })
  
